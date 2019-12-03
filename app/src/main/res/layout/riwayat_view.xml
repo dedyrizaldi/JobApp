@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dip" >
+
+<!--    "jobtitle": "Digital Advertising ",
+    "minimumsalary": "4000000",
+    "maximumsalary": "6000000",
+    "experience": "1",
+    "qualification": "Adobe PSD, Affter Effect and More",
+    "createdat": "2019-09-30 09:26:37"-->
+    <TextView
+        android:id="@+id/tv_jobtitile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Job title"
+        android:textColor="#278be3"
+        android:textSize="15dip"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/tv_companyname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_jobtitile"
+        android:layout_marginTop="0dp"
+        android:text="Company Name"
+        android:textSize="15dip"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/tv_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="State"
+        android:layout_below="@+id/tv_companyname"
+        android:textSize="15dip"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/tv_minsal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_state"
+        android:layout_marginLeft="10dp"
+        android:text="Min Salary"
+        android:textSize="15dip"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/key_iduser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dip"
+        android:gravity="right"
+        android:textColor="#000"
+        android:textSize="10dip"
+        android:textStyle="bold"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/key_idjob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dip"
+        android:gravity="right"
+        android:textColor="#000"
+        android:textSize="10dip"
+        android:textStyle="bold"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/key_idsaved"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dip"
+        android:gravity="right"
+        android:textColor="#000"
+        android:textSize="10dip"
+        android:textStyle="bold"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/key_idcompany"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dip"
+        android:gravity="right"
+        android:textColor="#000"
+        android:textSize="10dip"
+        android:textStyle="bold"
+        android:visibility="gone"/>
+
+
+    <TextView
+        android:layout_below="@+id/tv_minsal"
+        android:id="@+id/key_qualification"
+        android:text="experience"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dip"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:typeface="sans"
+
+        />
+
+    <TextView
+        android:id="@+id/key_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dip"
+        android:gravity="right"
+        android:textColor="#000"
+        android:textSize="10dip"
+        android:textStyle="bold"
+        android:visibility="gone"/>
+
+
+
+
+</RelativeLayout>
